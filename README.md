@@ -26,12 +26,13 @@ npm run build
 
 ## Usage
 
-Navigate to the IP address: 8080, for example, http://localhost:8080/. You will see the following interface.
+We provide an online version: https://alarm-clock-pink.vercel.app/. You can follow the steps below to use it:
 
-* Set the duration for the total length of the presentation, for example, 15 minutes * 60 = 900 seconds. Set a reminder time, such as at the 14th minute.
+* Set the duration for the total length of the presentation; for example, 15 minutes * 60 = 900 seconds. Set a reminder time, such as at the 14th minute.
 
 * Click Restart to begin the countdown. Click Stop Alarm Clock to stop the timer or the alarm sound.
-* When the reminder time is reached, a "ding-dong" sound will play for about 1 second, designed to minimize disturbance. After the presentation time has elapsed, a gentle stop music will play for a longer duration.
+
+* When the reminder time is reached, a "ding-dong" sound will play for about 1 second, designed to minimize disturbance. After the presentation time has elapsed, a gentle stop music will play for a 
 
 ## Development
 
@@ -40,8 +41,10 @@ Navigate to the IP address: 8080, for example, http://localhost:8080/. You will 
 For development purposes, compile and hot-reload the project using:
 
 ```bash
-npm run serve -- --port 80
+npm run serve
 ```
+
+Then, the app will be running at http://localhost:8080/.
 
 ### Linting and Fixing Files
 
@@ -53,7 +56,7 @@ npm run lint --fix
 
 ## Dependencies
 
-The application relies on the following key dependencies:
+The application relies on the following dependencies:
 
 - core-js: "^3.8.3",
 - element-plus: "^2.2.17",
